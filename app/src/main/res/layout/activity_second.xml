@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="233dp"
+        android:layout_height="228dp"
+        android:layout_marginBottom="100dp"
+        app:srcCompat="@drawable/logo1"
+
+        />
+
+    <LinearLayout
+       android:id="@+id/food"
+        android:layout_width="320dp"
+        android:layout_height="326dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/coffee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Momos"
+            android:layout_margin="20dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#EEC4CC"
+            android:outlineSpotShadowColor="#F83E03"
+            android:outlineAmbientShadowColor="#F83E03"
+            />
+
+        <Button
+            android:id="@+id/pizza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pizza"
+            android:layout_margin="20dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#EEC4CC"
+            android:outlineSpotShadowColor="#F83E03"
+            android:outlineAmbientShadowColor="#F83E03"
+            />
+
+        <Button
+            android:id="@+id/momos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coffee"
+            android:layout_margin="20dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#EEC4CC"
+            android:outlineSpotShadowColor="#F83E03"
+            android:outlineAmbientShadowColor="#F83E03"
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>
